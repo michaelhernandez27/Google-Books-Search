@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import Navbar from "../navbar"
 import Jumbotron from "../jumbotron"
 import API from "../../utility/api"
-import ResultCard from "../resultCard";
-import SearchForm from "../searchForm";
+import ResultCard from "../resultcard";
+import SearchForm from "../searchform";
 
 class Home extends Component {
     state = {
