@@ -28,7 +28,7 @@ class Saved extends Component {
         const newState = {...this.state}
 
         newState.results = this.state.results.filter(book => book._id !== bookID)
-        // Filters out any books with the matching target id
+       
 
         API.deleteBook(bookID).then(
             (response) => {
